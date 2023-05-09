@@ -1,7 +1,7 @@
 <?php
 
 namespace App;
-class Worker
+abstract class Worker
 {
     private string $name;
     private int $age;
@@ -102,9 +102,6 @@ class Worker
         $this->experience = $experience;
     }
 
-    public function work()
-    {
-        print_r('I am worker');
-    }
+    abstract public function work();
 
 }
