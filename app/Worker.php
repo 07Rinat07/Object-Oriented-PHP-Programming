@@ -3,9 +3,12 @@
 namespace App;
 class Worker
 {
-    public string $name;
-    public int $age;
-    public array $hours;
+    private string $name;
+    private int $age;
+    private array $hours;
+
+    private string $position;
+    private int $experience;
 
     /**
      * @param string $name
@@ -25,5 +28,13 @@ class Worker
         print_r('I am worker');
     }
 
+    public function setPosition($value)
+    {
+        $this->position = $value;
+    }
 
+    public function getPosition(): string
+    {
+        return $this->position;
+    }
 }
