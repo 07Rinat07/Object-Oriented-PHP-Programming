@@ -1,7 +1,7 @@
 <?php
 require_once ('../vendor/autoload.php');
-$worker = new \App\Worker();
+$worker = new \App\Worker('vasya', 33, [5, 7, 10]);
 $visitor = new \App\Visitor();
 
-$visitor->visit();
+var_dump($worker);
 
