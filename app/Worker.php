@@ -1,7 +1,7 @@
 <?php
 
 namespace App;
-abstract class Worker
+abstract class Worker implements WorkerInterface
 {
     private string $name;
     private int $age;
@@ -101,7 +101,5 @@ abstract class Worker
     {
         $this->experience = $experience;
     }
-
-    abstract public function work();
 
 }
