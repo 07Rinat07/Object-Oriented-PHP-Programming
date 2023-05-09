@@ -11,6 +11,6 @@ class Developer extends Worker
 
     public function work()
     {
-        // TODO: Implement work() method.
+       print_r('Developing');
     }
 }
