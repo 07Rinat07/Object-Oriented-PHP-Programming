@@ -14,7 +14,7 @@ $workers = [$designer, $developer];
 //    $worker->work();
 //}
 
-$developer2 = clone $developer;
+var_dump($developer);
 
 
 //Абстракция

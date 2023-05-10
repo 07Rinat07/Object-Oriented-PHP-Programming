@@ -12,8 +12,10 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-   public function __clone(): void
+   public function __debugInfo(): ?array
    {
-       print_r(777777777777);
+      return [
+          'position' => $this->position
+      ];
    }
 }
