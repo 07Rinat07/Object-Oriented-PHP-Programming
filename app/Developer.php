@@ -13,4 +13,9 @@ class Developer extends Worker
     {
        print_r('Developing');
     }
+
+    public function __toString(): string
+    {
+        return $this->getName();
+    }
 }

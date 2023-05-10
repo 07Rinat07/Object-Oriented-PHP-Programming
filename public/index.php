@@ -7,11 +7,13 @@ $designer = new \App\Designer('Elena ', 18, [5, 6, 10]);
 
 
 $workers = [$designer, $developer];
+//
+//foreach ($workers as $worker)
+//{
+//    $worker->work();
+//}
 
-foreach ($workers as $worker)
-{
-    $worker->work();
-}
+var_dump((string) $developer);
 
 
 
