@@ -14,8 +14,8 @@ class Developer extends Worker
        print_r('Developing');
     }
 
-    public function __toString(): string
-    {
-        return $this->getName();
-    }
+   public function __destruct()
+   {
+       print_r(111111111);
+   }
 }
