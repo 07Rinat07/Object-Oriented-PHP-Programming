@@ -14,16 +14,10 @@ $workers = [$designer, $developer];
 //    $worker->work();
 //}
 
-$developer->ffvfjjfjjfjkkj = 'ssssdddd';
-$developer->ffvfjjfjjfjkkj1 = 'ssssdddd1';
-$developer->ffvfjjfjjfjkkj2= 'ssssdddd2';
-$value = $developer->ffvfjjfjjfjkkj1;
-
-var_dump($value);
 
 
 
-
+var_dump(isset($developer->fgjjjfghhfgjkjdkd));
 
 //Абстракция
 // Инкапсуляция
