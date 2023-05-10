@@ -15,9 +15,8 @@ $workers = [$designer, $developer];
 //}
 
 
-
-
-unset($developer->fgjjjfghhfgjkjdkd);
+$str = serialize($developer); //преобразовал все в строку
+var_dump($str);
 
 //Абстракция
 // Инкапсуляция
