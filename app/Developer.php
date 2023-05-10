@@ -12,10 +12,4 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-   public function __debugInfo(): ?array
-   {
-      return [
-          'position' => $this->position
-      ];
-   }
 }
