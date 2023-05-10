@@ -7,6 +7,8 @@ class Developer extends Worker
 
     protected string $position = 'developer';
 
+    public string $sone;
+
     public function work()
     {
         print_r('Developing');
