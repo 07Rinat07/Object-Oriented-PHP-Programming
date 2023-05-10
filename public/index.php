@@ -14,10 +14,7 @@ $workers = [$designer, $developer];
 //    $worker->work();
 //}
 
-
-$str = serialize($developer); //преобразовал все в строку все это надо для работы с БД таблицами
-
-$object = unserialize($str);
+$developer();
 
 
 //Абстракция

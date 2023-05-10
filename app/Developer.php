@@ -12,8 +12,8 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-    public function __unserialize(array $data): void
+    public function __invoke()
     {
-        var_dump($data);
+       print_r(127777777777);
     }
 }
