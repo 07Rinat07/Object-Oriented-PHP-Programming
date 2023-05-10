@@ -15,8 +15,9 @@ $workers = [$designer, $developer];
 //}
 
 
-$str = serialize($developer); //преобразовал все в строку
-var_dump($str);
+$str = serialize($developer); //преобразовал все в строку все это надо для работы с БД таблицами
+$object = unserialize($str);
+var_dump($object);
 
 //Абстракция
 // Инкапсуляция

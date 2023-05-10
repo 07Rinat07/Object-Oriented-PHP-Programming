@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 class Developer extends Worker
 {
@@ -11,8 +12,8 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-   public function __unset(string $name): void
-   {
-       print_r(1111111111111111111111);
-   }
+    public function __wakeup(): void
+    {
+       print_r(1234897512155);
+    }
 }
