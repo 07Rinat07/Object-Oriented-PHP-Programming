@@ -12,8 +12,8 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-    public function __invoke()
-    {
-       print_r(127777777777);
-    }
+   public function __clone(): void
+   {
+       print_r(777777777777);
+   }
 }
