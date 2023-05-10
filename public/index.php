@@ -14,6 +14,8 @@ $workers = [$designer, $developer];
 //    $worker->work();
 //}
 
+\App\Developer::snsfsnf();
+
 
 
 
