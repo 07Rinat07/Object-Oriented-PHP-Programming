@@ -17,7 +17,7 @@ $workers = [$designer, $developer];
 
 
 
-var_dump(isset($developer->fgjjjfghhfgjkjdkd));
+unset($developer->fgjjjfghhfgjkjdkd);
 
 //Абстракция
 // Инкапсуляция

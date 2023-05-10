@@ -11,8 +11,8 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-    public function __isset(string $name): bool
-    {
-        return true; // тут назначил того чего нет так что он возвращает что есть
-    }
+   public function __unset(string $name): void
+   {
+       print_r(1111111111111111111111);
+   }
 }
