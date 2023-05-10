@@ -12,8 +12,11 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-    public function __wakeup(): void
-    {
-       print_r(1234897512155);
-    }
+  public function __serialize(): array
+  {
+      return  [
+          'sdhfhfhf' => 'ffffffffgggggg' //прописываем сценарий какие атрибуты должны тут сохранится
+
+      ];
+  }
 }
