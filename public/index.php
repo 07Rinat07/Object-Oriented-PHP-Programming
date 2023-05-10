@@ -6,4 +6,4 @@ $developer = new \App\Developer('Boris ', 20, [5, 6, 10]);
 $designer = new \App\Designer('Elena ', 18, [5, 6, 10]);
 
 
-var_dump(get_class($developer));
+var_dump(method_exists('App\Developer', 'work'));
