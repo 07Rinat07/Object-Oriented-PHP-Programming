@@ -10,13 +10,29 @@ class Developer extends Worker
     protected string $position = 'developer';
     private array $attributes;
 
+    /**
+     * @return array
+     */
+    public function getAttributes(): array
+    {
+        return $this->attributes;
+    }
+
     public function work()
     {
         print_r('Developing');
     }
 
-    public static function __callStatic($name, array $arguments)
+    public function __get(string $name)
     {
-        print_r($name);
+        if (isset($this->attributes[$name]))
+        {
+            return null;
+        }
+    }
+
+    public function __set(string $name, $value): void
+    {
+       $this->attributes[$name] = $value;
     }
 }

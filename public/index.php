@@ -14,8 +14,12 @@ $workers = [$designer, $developer];
 //    $worker->work();
 //}
 
-\App\Developer::snsfsnf();
+$developer->ffvfjjfjjfjkkj = 'ssssdddd';
+$developer->ffvfjjfjjfjkkj1 = 'ssssdddd1';
+$developer->ffvfjjfjjfjkkj2= 'ssssdddd2';
+$value = $developer->ffvfjjfjjfjkkj1;
 
+var_dump($value);
 
 
 
