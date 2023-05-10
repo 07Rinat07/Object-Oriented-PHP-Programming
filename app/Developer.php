@@ -12,11 +12,8 @@ class Developer extends Worker
         print_r('Developing');
     }
 
-  public function __serialize(): array
-  {
-      return  [
-          'sdhfhfhf' => 'ffffffffgggggg' //прописываем сценарий какие атрибуты должны тут сохранится
-
-      ];
-  }
+    public function __unserialize(array $data): void
+    {
+        var_dump($data);
+    }
 }
