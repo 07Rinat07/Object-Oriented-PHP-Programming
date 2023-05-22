@@ -4,7 +4,9 @@
 </div>
 
 
-# Object-Oriented-PHP-Programming
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=70&duration=4000&pause=7&color=0C2AF7&center=true&vCenter=true&multiline=true&width=1400&height=220&lines=Object-Oriented-PHP-Programming" alt="Typing SVG" /></a>
+
+
 ### OOP and MVC Tutorial in PHP Basics
 * https://code.mu/ru/php/book/oop/
 ### ООП (объектно-ориентированное программирование) в PHP - OOP (Object Oriented Programming) in PHP
